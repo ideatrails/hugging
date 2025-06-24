@@ -27,7 +27,7 @@ Handoff to next session Report
 Issues & Blocking Items Report
 - Filename Format: `./_DEV_LOG/issues/ISSUES_YYYY-MM-DD_HHMM_descriptive-title.md`
 - Context: Blocking issues, what is holding up progress, and how to resolve
-- Would like to develope an MCP workflow that runs in local development
+- Would like to develop an MCP workflow that runs in local development
 
 Key Principles:
 1. Real timestamps in filenames. Get the actual time with `touch file.tmp && ls -la file.tmp` 
@@ -36,20 +36,21 @@ Key Principles:
 4. Handoff clarity - Next session can continue without re-discovery
 
 Project Overview:
+- Chronicles journey using huggingface transformers and 
 - Documents KnowTrails transcript search system evolution
 - TurboRepo monorepo architecture
-- Custom truborepo build, test, and deploy pipelines 
+- Custom turborepo build, test, and deploy pipelines 
 - FastAPI transcript service
 - Discord bot integration
 - Tracks "paraconsistent FE/BE alignment" philosophy  
-- Chronicles Discord bot → fullstack knowledge trails journey
+
 - Serves as portfolio evidence of real problem-solving
 
-Usage: Menory for several stakeholder and source of final project documentation being built with kmdocks in a seperate repository as another collaboration project.
+Usage: Memory for several stakeholder and source of final project documentation being built with mkdocs in a separate repository as another collaboration project.
 
-I would integrate it if i understood submodules in the context of the turbomonorepo.  seems like an antipattern if not handled properlly.
+I would integrate it if i understood submodules in the context of the turbo monorepo.  seems like an anti-pattern if not handled properly.
 
-The AIs task overall is to Read recent devlogs it is handed by filename, to understand current state, then create new ones documenting session work github issues and handoofs to new sessions. Sometimes handoff is neede as there is task creep and need issues created or moved to new token space.
+The AIs task overall is to Read recent devlogs it is handed by filename, to understand current state, then create new ones documenting session work github issues and handoffs to new sessions. Sometimes handoff is needed as there is task creep and need issues created or moved to new token space.
 
 ---
 
